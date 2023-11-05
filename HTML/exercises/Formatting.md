@@ -1,0 +1,42 @@
+# **HTML Formatting**
+
+**1. Add extra importance to the word "degradation" in the paragraph below.**
+
+```
+<p>
+    WWF's mission is to stop the <strong>degradation</strong> of our planet's natural environment.
+</p>
+```
+
+**2. Emphasize the word "metropolitan" in the text below.**
+
+```
+<h1>Tokyo</h1>
+<p>
+    Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world.
+</p>
+```
+
+**3. Highlight the word "FUN" in the text below.**
+
+```
+<p>
+    HTML is <mark>FUN</mark> to learn!
+</p>
+```
+
+**4. Apply subscript formatting to the number "2" in the text below.**
+
+```
+<p>
+    H<sub>2</sub>O is the scientific term for water.
+</p>
+```
+
+**5. Add a line through (strikeout) the letters "blue" in the text below.**
+
+```
+<p>
+    My favorite color is <del>blue</del> red.
+</p>
+```
