@@ -1,0 +1,25 @@
+# **HTML Attributes**
+
+**1. Add a "tooltip" to the paragraph below with the text "About W3Schools".**
+
+```
+<p title="About W3Schools">W3Schools is a web developer's site.</p>
+```
+
+**2. Set the size of the image to 250 pixels wide and 400 pixels tall.**
+
+```
+<img src="w3schools.jpg" width="250" height="400">
+```
+
+**3. Make the element below into a link that goes to "https://www.w3schools.com".**
+
+```
+<a href="https://www.w3schools.com">This is a link</a>
+```
+
+**4. Specify an alternate text for the image. Alternate text is useful when the image cannot be displayed, like when the page is read by a screen reader.**
+
+```
+<img src="w3schools.png" alt="w3schools Logo">
+```
