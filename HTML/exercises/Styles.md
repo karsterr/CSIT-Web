@@ -24,7 +24,7 @@
 <p style="font-size:50px;">This is a paragraph.</p>
 ```
 
-**5.**
+**5. Use CSS to set the background color of the document to yellow.**
 
 ```
 <html>
