@@ -1,6 +1,6 @@
 # **CSS Margin**
 
-**1. Add a 20 pixels left margin to the <h1> element.**
+**1. Add a 20 pixels left margin to the h1 element.**
 
 ```
 <style>
@@ -16,7 +16,7 @@
 </body>
 ```
 
-**2. Use the shorthand margin property to add 20 pixels top and bottom margins, and 40 pixels left and right margins, on the <h1> element.**
+**2. Use the shorthand margin property to add 20 pixels top and bottom margins, and 40 pixels left and right margins, on the h1 element.**
 
 ```
 <style>
@@ -32,7 +32,7 @@
 </body>
 ```
 
-**3. For the <h1> element, use the shorthand margin property to add these margins: left: 10px, right: 15px, top: 20px, bottom: 25px**
+**3. For the h1 element, use the shorthand margin property to add these margins: left: 10px, right: 15px, top: 20px, bottom: 25px**
 
 ```
 <style>
@@ -48,7 +48,7 @@
 </body>
 ```
 
-**4.Use the margin property to center align the <h1> element.**
+**4.Use the margin property to center align the h1 element.**
 
 ```
 <style>
