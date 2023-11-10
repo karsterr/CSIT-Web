@@ -1,6 +1,6 @@
 # **CSS Borders**
 
-**1. Use the border shorthand property to set a "4px", "dotted", "red" border for the <p> elements.**
+**1. Use the border shorthand property to set a "4px", "dotted", "red" border for the p elements.**
 
 ```
 <style>
@@ -50,7 +50,7 @@
 </body>
 ```
 
-**4. Use the correct border property to add ROUNDED borders to the <p> elements.**
+**4. Use the correct border property to add ROUNDED borders to the p elements.**
 
 ```
 <style>
