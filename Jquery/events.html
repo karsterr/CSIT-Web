@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){ /* Event : Function runs when document is ready. */
+        $("h1").click(function(){ /* Event : Function runs when button is clicked. */
+            $(this).hide();
+        });
+        $("h2").dblclick(function(){ /* Event : Function runs when button is clicked twice. */
+            $(this).hide();
+        });
+        $("h3").mouseenter(function(){ /* Event : Function runs when mouse pointer reachs the item. */
+            alert("You entered p1!");
+        });
+        $("#h4").mouseleave(function(){ /* Event : Function runs when mouse pointer leaves the item. */
+            alert("Bye! You now leave p1!");
+        });
+        $("h5").mousedown(function(){ /* Event : Function runs when mouse is clicked down. */
+            alert("Mouse down over p1!");
+        });
+        $("h6").mouseup(function(){ /* Event : Function runs when mouse button is released. */
+            alert("Mouse up over p1!");
+        });
+        $("#p1").hover(function(){ /* Event : Function runs when mouse is hovered on item. */
+            alert("You entered p1!");
+            },
+            function(){
+                alert("Bye! You now leave p1!");
+            });
+        $("input").focus(function(){ /* Event : Function runs when input item is focused. */
+            $(this).css("background-color", "#cccccc");
+        });
+        $("input").blur(function(){ /* Event : Function runs when input item lost the focus. */
+            $(this).css("background-color", "#ffffff");
+        });
+        $("p").on("click", function(){ /* Event : Function runs when button is clicked. */
+            $(this).hide();
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <h1>If you click on me, I will disappear.</h1>
+    <h2>Click me away!</h2>
+    <h3>Cmon dude!</h3>
+    <h4>Damn, just press it!</h4>
+    <h5>Press me, god damn it!</h5>
+    <h6>Click me too!</h6>
+
+    <p id="p1">This is a paragraph.</p>
+
+    Name: <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email">
+
+    <p>If you click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+</body>
+</html>
