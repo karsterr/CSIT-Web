@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Switch</title>
+    <style>
+        #app {
+            border: dashed black 1px;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        #app > button {
+            display: block;
+            margin: auto;
+        }
+
+        #lightDiv {
+            position: relative;
+            width: 150px;
+            height: 150px;
+        }
+
+        #lightDiv > img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        #lightDiv > div {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Example: v-on Shorthand '@'</h1>
+    <p>With the v-on shorthand, we can write '@:click' instead of 'v-on:click'.</p>
+    <div id="app">
+        <div id="lightDiv">
+            <div :style="{ backgroundColor: currentColor }"></div>
+            <img src="assets/lb.svg">
+        </div>
+        <button @click="changeColor">Switch light</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    colors: ['yellow', 'blue', 'red', 'green','white'],
+                    currentColorIndex: 0
+                };
+            },
+            computed: {
+                currentColor() {
+                    return this.colors[this.currentColorIndex];
+                }
+            },
+            methods: {
+                changeColor() {
+                    this.currentColorIndex = (this.currentColorIndex + 1) % this.colors.length;
+                }
+            }
+        });
+
+        app.mount('#app');
+    </script>
+</body>
+</html>
